@@ -843,6 +843,10 @@ video {
   width: 100vw;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
