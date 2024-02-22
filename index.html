@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shub Shinde | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/images/logo.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-[#080f1f] selection:bg-[#FF8551]">
+    <!-- <nav class=" 2xl:container bg-white mx-auto py-8 xl:py-10 sm:px-12 px-8  shadow-lg">
+        <div class=" xl:grid grid-cols-12 grid-flow-col font-bold ">
+            <div class="xl:col-span-1   ">
+                <img src="src/images/brand_icon_black.svg" alt="">
+            </div>
+
+
+            <div class="flex justify-end -mt-6">
+                <div class="flex xl:hidden my-auto  justify-end mr-5">
+                    <i class="fa-solid fa-magnifying-glass text-2xl font-bold text-sky-600"></i>
+                </div>
+
+                <div id="menu-icon" class="flex xl:hidden my-auto  justify-end" onclick="navtrig()">
+                    <i class="fa fa-bars text-2xl font-bold text-sky-600" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class=" hidden flex  flex-col xl:col-span-11 navi xl:grid grid-cols-12 " id="navbar">
+                <ul class=" xl:flex xl:justify-between  xl:col-span-7 my-6 xl:my-auto">
+                    <li class="group xl:relative">
+                        Services
+                        <div class="hidden group-hover:flex flex-col absolute  pt-14 pb-2 w-56 z-10">
+                            <ul class="bg-white shadow-lg gap-y-3 rounded-xl p-5">
+                                <li class="py-4 px-3  hover:bg-[#ecf6fe] rounded-lg"><a href="#"
+                                        class="text-blue-500">Advisory</a></li>
+                                <li class="py-4 px-3  hover:bg-[#ecf6fe] rounded-lg"><a href="#"
+                                        class="text-blue-500">Tax</a></li>
+                                <li class="py-4 px-3  hover:bg-[#ecf6fe] rounded-lg"><a href="#"
+                                        class="text-blue-500">Audit</a></li>
+                                <li class="py-4 px-3  hover:bg-[#ecf6fe] rounded-lg"><a href="#"
+                                        class="text-blue-500">Forensic</a></li>
+                                <li class="py-4 px-3  hover:bg-[#ecf6fe] rounded-lg"><a href="#"
+                                        class="text-blue-500">Outsourced Support</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="xl:mt-0 mt-3">Industries</li>
+                    <li class="xl:mt-0 mt-3">About Us</li>
+                    <li class="xl:mt-0 mt-3">Our People</li>
+                    <li class="xl:mt-0 mt-3">Insights</li>
+                    <li class="xl:mt-0 mt-3">Careers</li>
+                </ul>
+                <div class="xl:col-span-5 col-span-12 xl:justify-end flex flex-row gap-y-2 align-items-center gap-x-5">
+                    <div
+                        class=" my-auto px-4 py-2 w-fit bg-blue-100  hover:text-white cursor-pointer font-bold rounded-full hover:bg-[#007EF0] duration-500">
+                        <a href="tel:0730231300" class="flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                class="w-5 h-5 mr-2 my-auto">
+                                <path
+                                    d="M8 16.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z" />
+                                <path fill-rule="evenodd"
+                                    d="M4 4a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4Zm4-1.5v.75c0 .414.336.75.75.75h2.5a.75.75 0 0 0 .75-.75V2.5h1A1.5 1.5 0 0 1 14.5 4v12a1.5 1.5 0 0 1-1.5 1.5H7A1.5 1.5 0 0 1 5.5 16V4A1.5 1.5 0 0 1 7 2.5h1Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <h4 class="">07 3023 1300</h4>
+                        </a>
+                    </div>
+                    <div
+                        class="hidden xl:flex my-auto p-2 w-fit bg-blue-100 hover:text-white cursor-pointer font-bold rounded-full hover:bg-[#007EF0] duration-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd"
+                                d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div>
+                        <button
+                            class="bg-[#007EF0] px-6 py-2 text-white font-bold rounded-full hover:bg-[#4585c2]">Contact</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </nav> -->
+
+
+
+    <div class="container mx-auto flex ">
+        <!-- <div class="absolute  inset-0 h-full bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5"
+            style="mask-image: linear-gradient(transparent, black); background-image: url(src/images/download.svg);">
+        </div> -->
+        <div class="w-1/2 h-screen pt-9 pb-20 pl-32 text-white sticky top-0 flex flex-col justify-between">
+            <div>
+                <div class="flex">
+                    <a href="src/Shubham_Shinde_Resume.pdf" target="_blank" style="width: 10%; " class="flex">
+                        <img src="src/images/logo.png"
+                            class="w-16 hover:rotate-90 hover:scale-110 ease-in-out duration-500 " alt="">
+                    </a>
+
+                    <img src="src/images/arrow.png" class="h-full w-32 ml-2" alt="">
+                    <h5 class="my-auto ml-2 text-sm">Click to download Resume</h5>
+                </div>
+                <h1 class="text-5xl mt-10"><strong>Shubham Shinde</strong></h1>
+                <h1 class="text-xl mt-3"><strong>Web/UI Developer</strong></h1>
+                <p class="mt-3 text-[#717b8e]">I weave magic into the digital realm, sculpting <br> mesmerizing and
+                    user-friendly
+                    front-end<br>
+                    experiences that not only dazzle the eyes<br> but also dance seamlessly with<br> the user's every
+                    interaction.</p>
+            </div>
+            <div class="mt-10 ">
+                <ul class="">
+                    <a href="#one">
+                        <li
+                            class="w-fit cursor-pointer py-2 flex hover:before:w-16  before:duration-700 before:my-auto before:mr-3 relative before:w-10 before:h-[2px] before:bg-slate-100">
+                            About
+                        </li>
+                    </a>
+                    <a href="#projects">
+                        <li
+                            class="w-fit cursor-pointer py-2 flex hover:before:w-16  before:duration-700 before:my-auto before:mr-3 relative before:w-10 before:h-[2px] before:bg-slate-100">
+                            Projects
+                        </li>
+                    </a>
+                    <a href="#experience">
+                        <li
+                            class="w-fit cursor-pointer py-2 flex hover:before:w-16  before:duration-700 before:my-auto before:mr-3 relative before:w-10 before:h-[2px] before:bg-slate-100">
+                            Experience
+                        </li>
+                    </a>
+                    <!-- 
+                    <li
+                        class="w-fit cursor-pointer py-2 flex hover:before:w-16  before:duration-700 before:my-auto before:mr-3 relative before:w-10 before:h-[2px] before:bg-slate-100">
+                        Contact
+                    </li> -->
+                </ul>
+            </div>
+
+            <div class="mt-10 ">
+                <div class="">
+                    <ul class="flex gap-x-6">
+                        <li>
+                            <div>
+                                <a href="tel:+919960966034">
+                                    <img src="src/images/phone-call.png" class="w-8 hover:scale-110 duration-500"
+                                        alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="mailto:shubham.m.shinde@outlook.com">
+                                    <img src="src/images/mail.png" class="w-8 hover:scale-110 duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://github.com/shubshinde1" target="_blank">
+                                    <img src="src/images/github.png" class="w-8 hover:scale-110 duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://www.linkedin.com/in/shubhamshinde-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                    target="_blank">
+                                    <img src="src/images/linkedin.png" class="w-8 hover:scale-110  duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://www.instagram.com/shub_shinde9?igsh=aGFkbjA4Y3hvMmRo" target="_blank">
+                                    <img src="src/images/instagram.png" class="w-8 hover:scale-110  duration-500"
+                                        alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://api.whatsapp.com/send?phone=9960966034&text=Hey%20Shubham!!%20This%20your%20Friend%20i%20need%20your%20help.%20i%20know%20you%20help%20me!"
+                                    target="_blank">
+                                    <img src="src/images/whatsapp.png" class="w-8 hover:scale-110  duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://www.behance.net/shubhamshinde2?tracking_source=search_users|shubham%20shinde"
+                                    target="_blank">
+                                    <img src="src/images/behance-icon.png" class="w-8 hover:scale-110  duration-500"
+                                        alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <!-- <li>
+                            <div>
+                                <a href="">
+                                    <img src="src/images/logo.png" class="w-10" alt="">
+                                </a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-1/2 h-full overflow-auto scroll-smooth text-white absolute right-0">
+            <div class="p-10">
+
+<!-- 
+                <div>
+                    <img src="src/images/mypic.png" class="w-3/4" alt="">
+                </div> -->
+
+                <!-- about me -->
+                <div>
+                    <p class="pr-28 pt-20" id="one">Embarking on my web and UI development journey in 2018, I immersed
+                        myself in
+                        crafting custom
+                        Tumblr themes, igniting a passion for coding and web development. Over the years, I've had the
+                        privilege of leaving my mark across diverse landscapes, from advertising agencies to start-ups
+                        and
+                        student-led design studios.
+                        <br> <br>
+                        Now, at Upstatement, I thrive at the intersection of design and engineering, sculpting
+                        user-centric
+                        interfaces that seamlessly blend aesthetics with functionality. My focus lies in building
+                        products
+                        that not only look good but also perform flawlessly under the hood.
+                        <br><br>
+                        Beyond coding, I share my expertise through online courses, diving deep into the intricacies of
+                        web
+                        development. Outside of work, I find joy in scaling rock faces, delving into captivating
+                        literature,
+                        and cherishing moments with loved ones.
+                        <br><br>
+                        Join me on this exhilarating journey of creativity and innovation as we craft digital
+                        experiences
+                        that captivate and inspire. Together, let's push the boundaries of what's possible in the
+                        digital
+                        realm.
+                    </p>
+                </div>
+
+                <!-- projects -->
+                <div class="mt-32 pt-12 pr-12 " id="projects">
+
+                    <a href="https://spendboard.vercel.app/">
+                        <div
+                            class="grid grid-cols-12 gap-5 hover:backdrop-blur-sm bg-white/10 hover:outline outline-offset-4 outline-2 outline-orange-400 hover:drop-shadow-xl hover:shadow-orange-400/50 group duration-75 p-5 rounded-lg">
+                            <div class="col-span-3">
+                                <img src="src/images/spendboard.png" alt="">
+                            </div>
+                            <div class="col-span-9">
+                                <div class="text-xl flex">
+                                    <h1>SpendBoard Dashboard</h1>
+                                    <i class="fa-solid fa-link fa-2xs my-auto ml-2 group-hover:scale-125 duration-100"
+                                        style="color: #f56e00;"></i>
+                                </div>
+                                <p class="mt-3">
+                                    Craft Solution to track daily, Weekly, Monthly Spends of users money with variour
+                                    types
+                                    of charts with custom limit notifications.
+                                    <br><br>
+                                    This app will track users all
+                                    Spends and expenses for all time
+                                    daily, weekly, monthly and more.
+                                    Separate spends by types vai
+                                    different charts.
+                                </p>
+                                <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            JavaScript</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            ReactJS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Tailwind CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Ant design</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Material UI</div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://datacause.in/">
+                        <div
+                            class="mt-10 grid grid-cols-12 gap-5 hover:backdrop-blur-sm bg-white/10 hover:outline outline-offset-4 outline-2 outline-orange-400 hover:drop-shadow-xl hover:shadow-orange-400/50 group duration-75 p-5 rounded-lg">
+                            <div class="col-span-3">
+                                <img src="src/images/datacause.png" alt="">
+                            </div>
+                            <div class="col-span-9">
+                                <div class="text-xl flex">
+                                    <h1>Datacause Analytics Pvt Ltd</h1>
+                                    <i class="fa-solid fa-link fa-2xs my-auto ml-2 group-hover:scale-125 duration-100"
+                                        style="color: #f56e00;"></i>
+                                </div>
+                                <p class="mt-3">
+                                    Engineer a cutting-edge, responsive website employing HTML, CSS, Tailwind
+                                    CSS, and PHP. Propel online presence, curate seamless user journeys, and unleash the
+                                    enchantment of e-commerce.
+                                </p>
+                                <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            Html</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Media Query</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            MySQL</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            PHP</div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </a>
+
+
+                    <a href="https://gtvaluefoods.com/">
+                        <div
+                            class="mt-10 grid grid-cols-12 gap-5 hover:backdrop-blur-sm bg-white/10 hover:outline outline-offset-4 outline-2 outline-orange-400 hover:drop-shadow-xl hover:shadow-orange-400/50 group duration-75 p-5 rounded-lg">
+                            <div class="col-span-3">
+                                <img src="src/images/gtvaluefoods.png" alt="">
+                            </div>
+                            <div class="col-span-9">
+                                <div class="text-xl flex">
+                                    <h1>GT Value Foods Pvt Ltd</h1>
+                                    <i class="fa-solid fa-link fa-2xs my-auto ml-2 group-hover:scale-125 duration-100"
+                                        style="color: #f56e00;"></i>
+                                </div>
+                                <div class="mt-3 text-base">
+                                    <p>
+                                        Design, develop, and deploy a responsive website for GT Value Foods Pvt Ltd
+                                        using HTML, CSS, Tailwind CSS, and PHP. Enhance online presence, ensure seamless
+                                        user
+                                        experience, and enable e-commerce functionalities.
+                                        <br><br>
+                                    <h1>
+                                        Front-End Development:
+                                    </h1>
+                                    Implemented front-end components with HTML and CSS.
+                                    Integrated Tailwind CSS for efficient styling and a consistent design system.
+                                    Outcome: GT Value Foods Pvt Ltd now enjoys a strong online presence, providing
+                                    customers
+                                    with a seamless and enjoyable experience for e-commerce transactions.
+                                    </p>
+                                </div>
+                                <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            Html</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Tailwind CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Bootstrap 5</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            MySQL</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            PHP</div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://beyondtemptations.com/">
+                        <div
+                            class="mt-10 grid grid-cols-12 gap-5 hover:backdrop-blur-sm bg-white/10 hover:outline outline-offset-4 outline-2 outline-orange-400 hover:drop-shadow-xl hover:shadow-orange-400/50 group duration-75 p-5 rounded-lg">
+                            <div class="col-span-3">
+                                <img src="src/images/beyoundtemptations.png" alt="">
+                            </div>
+                            <div class="col-span-9">
+                                <div class="text-xl flex">
+                                    <h1>Beyond temptations</h1>
+                                    <i class="fa-solid fa-link fa-2xs my-auto ml-2 group-hover:scale-125 duration-100"
+                                        style="color: #f56e00;"></i>
+                                </div>
+                                <div class="mt-3 text-base">
+                                    <p>Objective: Develop a sleek, responsive website with HTML, CSS, Tailwind CSS, and
+                                        PHP.
+                                        Elevate online presence, ensure seamless user journeys, and unlock e-commerce
+                                        magic.
+                                    </p>
+                                </div>
+                                <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            Html</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Tailwind CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Bootstrap 5</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            MySQL</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            PHP</div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.behance.net/shubhamshinde2">
+                        <div
+                            class="mt-10 grid grid-cols-12 gap-5 hover:backdrop-blur-sm bg-white/10 hover:outline outline-offset-4 outline-2 outline-orange-400 hover:drop-shadow-xl hover:shadow-orange-400/50 group duration-75 p-5 rounded-lg">
+                            <div class="col-span-3">
+                                <img src="src/images/behance.png" alt="">
+                            </div>
+                            <div class="col-span-9">
+                                <div class="text-xl flex">
+                                    <h1>Behance Portfoilo</h1>
+                                    <i class="fa-solid fa-link fa-2xs my-auto ml-2 group-hover:scale-125 duration-100"
+                                        style="color: #f56e00;"></i>
+                                </div>
+                                <div class="mt-3 text-base">
+                                    <p>Here are my all projects Design information along with presentation. </p>
+                                </div>
+                                <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            JavaScript</div>
+                                    </li>
+
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            ReactJS</div>
+                                    </li>
+
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            Html</div>
+                                    </li>
+
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Tailwind CSS</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Bootstrap 5</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            MySQL</div>
+                                    </li>
+
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                            PHP</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Figma</div>
+                                    </li>
+
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Adobe XD</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            Web development/ web Design</div>
+                                    </li>
+                                    <li class="mr-1.5 mt-2">
+                                        <div
+                                            class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                            UI Design</div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <!-- experience -->
+                <div id="experience">
+                    <div class="max-w-4xl mx-auto mt-24 pt-12 pr-12">
+                        <div class="relative">
+                            <!-- Vertical line -->
+                            <!-- <div class="absolute top-0 left-0 w-1 h-full bg-gray-400 transform -translate-x-1/2">
+                            </div> -->
+
+                            <!-- Events -->
+                            <div class="flex flex-col">
+                                <!-- Event 1 -->
+                                <div class="flex  mb-12">
+                                    <!-- <div class="p-2 bg-orange-600 text-white rounded-full mt-0  mr-4">
+                                    </div> -->
+                                    <div>
+                                        <div class="flex">
+                                            <img src="src/images/invezza-logo 1.png"
+                                                class="h-10 my-auto bg-white p-2 rounded-md" alt="">
+                                            <div class="ml-3">
+                                                <div class="font-bold">UI Developer</div>
+                                                <div><a href="https://www.invezzatechnologies.com/">Invezza Technologies
+                                                        Pvt Ltd</a> -
+                                                    <span class="text-[#717b8e] text-sm">Feb 2024 to Present</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mt-2">As a UI Developer at Invezza Technologies, I lead the creation
+                                            of immersive user experiences for web and mobile applications, aligning
+                                            design with brand identity. <br> I excel in translating concepts into
+                                            wireframes
+                                            and prototypes, ensuring seamless navigation. Adhering to industry
+                                            standards, I craft responsive designs for optimal usability. Collaborating
+                                            with stakeholders, I contribute innovative solutions to achieve project
+                                            goals. Conducting usability tests, I refine designs with a focus on
+                                            user-centric principles. Remaining updated on emerging technologies, I
+                                            integrate new techniques for enhanced experiences. Committed to innovation,
+                                            I deliver solutions meeting the highest standards of functionality and
+                                            aesthetics.</p>
+                                        <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                                    JavaScript</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    ReactJS</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Node JS</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Tailwind CSS</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Ant design</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Material UI</div>
+                                            </li>
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    HTML</div>
+                                            </li>
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    CSS</div>
+                                            </li>
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Material</div>
+                                            </li>
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Material</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Event 2 -->
+                                <div class="flex  mb-12">
+                                    <!-- <div class="p-2 bg-orange-600 text-white rounded-full mt-0  mr-4">
+                                    </div> -->
+                                    <div>
+                                        <div class="flex">
+                                            <img src="src/images/Datacauselogo.png"
+                                                class="h-10 my-auto bg-white p-2 rounded-md" alt="">
+                                            <div class="ml-3">
+                                                <div class="font-bold">Web Developer</div>
+                                                <div><a href="https://datacause.in/">Datacause Pvt Ltd</a> -
+                                                    <span class="text-[#717b8e] text-sm"> Jan 2023 to Feb 2024</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mt-2">Experienced web development specializing in creating seamless
+                                            and innovative websites. Proficient in front-end (HTML5, CSS3, JavaScript).
+                                            Collaborative team player with a focus on optimizing user experiences and
+                                            staying current with industry trends. Developed responsive websites for
+                                            clients in various industries using HTML, CSS, JavaScript and Bootstrap,
+                                            resulting in a 25% increase in user engagement. Collaborated with designers
+                                            to translate wire frames and mockups into pixel-perfect, interactive web
+                                            interfaces, ensuring an optimal user experience. Developing and maintaining
+                                            software solutions using SDLC standards and best practices. Working with
+                                            cross-functional teams in an Agile environment. Designing and developing
+                                            dynamic, user-friendly websites for international clients. Managing large
+                                            projects with 4+ team members.</p>
+                                        <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                                    JavaScript</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    ReactJS</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Tailwind CSS</div>
+                                            </li>
+                                            <!-- <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Ant design</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Material UI</div>
+                                            </li> -->
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    HTML</div>
+                                            </li>
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    CSS</div>
+                                            </li>
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Material</div>
+                                            </li>
+
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Figma</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Event 3 -->
+                                <div class="flex  mb-12">
+                                    <!-- <div class="p-2 bg-orange-600 text-white rounded-full mt-0  mr-4">
+                                    </div> -->
+                                    <div>
+                                        <div class="flex">
+                                            <img src="src/images/affinityX.png"
+                                                class="h-10 my-auto bg-white p-2 rounded-md" alt="">
+                                            <div class="ml-3">
+                                                <div class="font-bold">Associate UI Designer</div>
+                                                <div><a href="https://affinityx.com/">Affinit Express Pvt Ltd</a> -
+                                                    <span class="text-[#717b8e] text-sm"> Mar 2022 to Oct 2022</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mt-2">Responsible for designing interfaces for clients and managing
+                                            their queues of
+                                            deliverables. Design visually appealing and intuitive user interfaces for
+                                            web, and mobile applications. Translate conceptual ideas into wireframes,
+                                            mockups, and interactive prototypes. Collaborate with clients to develop
+                                            engaging graphic design solutions based on market trends, brand identity,
+                                            and target demographics. Conducted marketing research on demographics and
+                                            marketing to determine the best design for clients based on brand aesthetics
+                                            and identity.</p>
+                                        <ul class="mt-2 flex flex-wrap" aria-label="Technologies used:">
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white ">
+                                                    Figma</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Adobe XD</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    UI/UX Design</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Web Design</div>
+                                            </li>
+                                            <li class="mr-1.5 mt-2">
+                                                <div
+                                                    class="flex items-center rounded-full bg-orange-600/20 px-3 py-1 text-xs font-medium leading-5 text-white0 ">
+                                                    Graphics Design</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+        function navtrig() {
+            var navbar = document.getElementById('navbar');
+            var menuIcon = document.getElementById('menu-icon');
+            if (navbar.classList.contains('hidden')) {
+                navbar.classList.remove('hidden');
+                menuIcon.innerHTML = '<i class="fa-solid text-2xl fa-xmark text-sky-600"></i>';
+            } else {
+                navbar.classList.add('hidden');
+                menuIcon.innerHTML = '<i class="fa-solid text-2xl fa-bars text-sky-600"></i>'; // Assuming you want to revert back to the bars icon when closing the navbar
+            }
+        }
+    </script>
+    <script>
+        const controller = new ScrollMagic.Controller();
+
+        const parallaxScenes = document.querySelectorAll('.parallax');
+
+        parallaxScenes.forEach(parallax => {
+            const tween = new ScrollMagic.TweenMax.to(parallax, {
+                y: '100%',
+                duration: 1000,
+                ease: Linear.easeNone
+            });
+
+            const scene = new ScrollMagic.Scene({
+                triggerElement: parallax.parentNode,
+                duration: '100%',
+                offset: -parallax.clientHeight / 2
+            })
+                .setTween(tween)
+                .addTo(controller);
+        });
+    </script>
+
+</body>
+
+</html>
