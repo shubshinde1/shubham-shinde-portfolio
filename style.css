@@ -1002,6 +1002,11 @@ video {
   background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#0f1c39\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 28 57 / var(--tw-bg-opacity));
+}
+
 .bg-\[bottom_1px_center\] {
   background-position: bottom 1px center;
 }
@@ -1623,6 +1628,11 @@ html {
 
   .xl\:justify-between {
     justify-content: space-between;
+  }
+
+  .xl\:bg-\[\#080f1f\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(8 15 31 / var(--tw-bg-opacity));
   }
 
   .xl\:py-10 {
