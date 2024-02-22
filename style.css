@@ -1007,6 +1007,10 @@ video {
   background-color: rgb(15 28 57 / var(--tw-bg-opacity));
 }
 
+.bg-white\/20 {
+  background-color: rgb(255 255 255 / 0.2);
+}
+
 .bg-\[bottom_1px_center\] {
   background-position: bottom 1px center;
 }
