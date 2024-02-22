@@ -88,19 +88,20 @@
 
 
 
-        </div>  shu
+        </div> 
     </nav> -->
 
 
 
-    <div class="container mx-auto flex ">
+    <div class="container mx-auto lg:flex ">
         <!-- <div class="absolute  inset-0 h-full bg-grid-slate-900/[0.04] bg-[bottom_1px_center] dark:bg-grid-slate-400/[0.05] dark:bg-bottom dark:border-b dark:border-slate-100/5"
             style="mask-image: linear-gradient(transparent, black); background-image: url(src/images/download.svg);">
         </div> -->
-        <div class="w-1/2 h-screen pt-9 pb-20 pl-32 text-white sticky top-0 flex flex-col justify-between">
-            <div>
+        <div
+            class="w-full lg:w-1/2 lg:h-screen pt-9 lg:pb-20 px-5 lg:pl-32 text-white lg:sticky lg:top-0 flex flex-col justify-between">
+            <div class="">
                 <div class="flex">
-                    <a href="src/Shubham_Shinde_Resume.pdf" target="_blank" style="width: 10%; " class="flex">
+                    <a href="src/Shubham_Shinde_Resume.pdf" target="_blank" class="flex lg:w[10%]">
                         <img src="src/images/logo.png"
                             class="w-16 hover:rotate-90 hover:scale-110 ease-in-out duration-500 " alt="">
                     </a>
@@ -110,13 +111,15 @@
                 </div>
                 <h1 class="text-5xl mt-10"><strong>Shubham Shinde</strong></h1>
                 <h1 class="text-xl mt-3"><strong>Web/UI Developer</strong></h1>
-                <p class="mt-3 text-[#717b8e]">I weave magic into the digital realm, sculpting <br> mesmerizing and
+                <p class="mt-3 text-[#717b8e]">I weave magic into the digital realm, sculpting <br
+                        class="hidden lg:block"> mesmerizing and
                     user-friendly
-                    front-end<br>
-                    experiences that not only dazzle the eyes<br> but also dance seamlessly with<br> the user's every
+                    front-end<br class="hidden lg:block">
+                    experiences that not only dazzle the eyes<br class="hidden lg:block"> but also dance seamlessly
+                    with<br class="hidden lg:block"> the user's every
                     interaction.</p>
             </div>
-            <div class="mt-10 ">
+            <div class="lg:mt-10 hidden lg:block">
                 <ul class="">
                     <a href="#one">
                         <li
@@ -144,7 +147,7 @@
                 </ul>
             </div>
 
-            <div class="mt-10 ">
+            <div class="lg:mt-10 hidden lg:block">
                 <div class="">
                     <ul class="flex gap-x-6">
                         <li>
@@ -214,17 +217,27 @@
             </div>
         </div>
 
-        <div class="w-1/2 h-full overflow-auto scroll-smooth text-white absolute right-0">
-            <div class="p-10">
+        <div class="lg:w-1/2 lg:h-full overflow-auto scroll-smooth text-white lg:absolute lg:right-0">
+            <div class="p-5 lg:p-10">
 
-<!-- 
+                <!-- 
                 <div>
                     <img src="src/images/mypic.png" class="w-3/4" alt="">
                 </div> -->
 
                 <!-- about me -->
+                <a href="#one" id="about-link" class="block lg:hidden backdrop-blur-lg bg-black/50 -mx-5 py-2">
+                    <li
+                        class="w-fit cursor-pointer py-2 flex hover:before:w-16 before:duration-700 before:my-auto before:mr-3 relative lg:before:w-10 before:h-[2px] before:bg-slate-100">
+                        About
+                    </li>
+                </a>
+
+
                 <div>
-                    <p class="pr-28 pt-20" id="one">Embarking on my web and UI development journey in 2018, I immersed
+                    <p class="lg:pr-28 lg:pt-20 mt-2 lg:mt-0" id="one">Embarking on my web and UI development journey in
+                        2018, I
+                        immersed
                         myself in
                         crafting custom
                         Tumblr themes, igniting a passion for coding and web development. Over the years, I've had the
@@ -252,8 +265,15 @@
                     </p>
                 </div>
 
+                <a href="#one" id="projects" class="block lg:hidden backdrop-blur-lg bg-black/50 -mx-5 py-2 mt-10">
+                    <li
+                        class="w-fit cursor-pointer py-2 flex hover:before:w-16 before:duration-700 before:my-auto before:mr-3 relative lg:before:w-10 before:h-[2px] before:bg-slate-100">
+                        Projects
+                    </li>
+                </a>
+
                 <!-- projects -->
-                <div class="mt-32 pt-12 pr-12 " id="projects">
+                <div class="lg:mt-32 mt-5 lg:pt-12 lg:pr-12 " id="projects">
 
                     <a href="https://spendboard.vercel.app/">
                         <div
@@ -571,9 +591,17 @@
 
                 </div>
 
+
+                <a href="#one" id="experience" class="block lg:hidden backdrop-blur-lg bg-black/50 -mx-5 py-2 mt-10">
+                    <li
+                        class="w-fit cursor-pointer py-2 flex hover:before:w-16 before:duration-700 before:my-auto before:mr-3 relative lg:before:w-10 before:h-[2px] before:bg-slate-100">
+                        Experience
+                    </li>
+                </a>
+
                 <!-- experience -->
                 <div id="experience">
-                    <div class="max-w-4xl mx-auto mt-24 pt-12 pr-12">
+                    <div class="max-w-4xl mx-auto lg:mt-24 mt-5 lg:pt-12 lg:pr-12">
                         <div class="relative">
                             <!-- Vertical line -->
                             <!-- <div class="absolute top-0 left-0 w-1 h-full bg-gray-400 transform -translate-x-1/2">
@@ -813,6 +841,75 @@
 
             </div>
 
+            <div class="lg:mt-10 mb-5 block lg:hidden">
+                <div class="w-full ">
+                    <ul class="flex gap-x-5 px-5">
+                        <li>
+                            <div>
+                                <a href="tel:+919960966034">
+                                    <img src="src/images/phone-call.png" class="w-8 hover:scale-110 duration-500"
+                                        alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="mailto:shubham.m.shinde@outlook.com">
+                                    <img src="src/images/mail.png" class="w-8 hover:scale-110 duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://github.com/shubshinde1" target="_blank">
+                                    <img src="src/images/github.png" class="w-8 hover:scale-110 duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://www.linkedin.com/in/shubhamshinde-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                    target="_blank">
+                                    <img src="src/images/linkedin.png" class="w-8 hover:scale-110  duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://www.instagram.com/shub_shinde9?igsh=aGFkbjA4Y3hvMmRo" target="_blank">
+                                    <img src="src/images/instagram.png" class="w-8 hover:scale-110  duration-500"
+                                        alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://api.whatsapp.com/send?phone=9960966034&text=Hey%20Shubham!!%20This%20your%20Friend%20i%20need%20your%20help.%20i%20know%20you%20help%20me!"
+                                    target="_blank">
+                                    <img src="src/images/whatsapp.png" class="w-8 hover:scale-110  duration-500" alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://www.behance.net/shubhamshinde2?tracking_source=search_users|shubham%20shinde"
+                                    target="_blank">
+                                    <img src="src/images/behance-icon.png" class="w-8 hover:scale-110  duration-500"
+                                        alt="">
+                                </a>
+                            </div>
+                        </li>
+                        <!-- <li>
+                            <div>
+                                <a href="">
+                                    <img src="src/images/logo.png" class="w-10" alt="">
+                                </a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
     </div>
@@ -834,25 +931,32 @@
         }
     </script>
     <script>
-        const controller = new ScrollMagic.Controller();
+        window.onscroll = function () { stickyAbout() };
 
-        const parallaxScenes = document.querySelectorAll('.parallax');
+        var aboutLink = document.getElementById("about-link");
+        var sticky = aboutLink.offsetTop;
 
-        parallaxScenes.forEach(parallax => {
-            const tween = new ScrollMagic.TweenMax.to(parallax, {
-                y: '100%',
-                duration: 1000,
-                ease: Linear.easeNone
-            });
+        function stickyAbout() {
+            var projectsSection = document.getElementById("projects");
+            var experienceSection = document.getElementById("experience");
+            var projectsRect = projectsSection.getBoundingClientRect();
+            var experienceRect = experienceSection.getBoundingClientRect();
 
-            const scene = new ScrollMagic.Scene({
-                triggerElement: parallax.parentNode,
-                duration: '100%',
-                offset: -parallax.clientHeight / 2
-            })
-                .setTween(tween)
-                .addTo(controller);
-        });
+            if (window.pageYOffset >= sticky) {
+                aboutLink.classList.add("fixed", "top-0", "w-full", "z-50");
+            } else {
+                aboutLink.classList.remove("fixed", "top-0", "w-full", "z-50");
+            }
+
+            // Change the content of the link to "Projects" when the "projects" section comes into view
+            if (experienceRect.top <= 0) {
+                aboutLink.innerHTML = '<li class="w-fit cursor-pointer py-2 flex hover:before:w-16 before:duration-700 before:my-auto before:mr-3 relative lg:before:w-10 before:h-[2px] before:bg-slate-100">Experience</li>';
+            } else if (projectsRect.top <= 0) {
+                aboutLink.innerHTML = '<li class="w-fit cursor-pointer py-2 flex hover:before:w-16 before:duration-700 before:my-auto before:mr-3 relative lg:before:w-10 before:h-[2px] before:bg-slate-100">Projects</li>';
+            } else {
+                aboutLink.innerHTML = '<li class="w-fit cursor-pointer py-2 flex hover:before:w-16 before:duration-700 before:my-auto before:mr-3 relative lg:before:w-10 before:h-[2px] before:bg-slate-100">About</li>';
+            }
+        }
     </script>
 
 </body>
