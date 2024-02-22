@@ -1489,6 +1489,16 @@ html {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:visible {
     visibility: visible;
