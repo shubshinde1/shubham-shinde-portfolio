@@ -622,6 +622,26 @@ video {
   right: 0.5rem;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
+.-right-2 {
+  right: -0.5rem;
+}
+
+.-right-4 {
+  right: -1rem;
+}
+
+.-right-0 {
+  right: -0px;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -664,6 +684,11 @@ video {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.-mx-2 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 
 .-mt-6 {
