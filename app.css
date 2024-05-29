@@ -618,6 +618,10 @@ video {
   top: 0.625rem;
 }
 
+.top-3 {
+  top: 0.75rem;
+}
+
 .z-10 {
   z-index: 10;
 }
