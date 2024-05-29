@@ -924,6 +924,11 @@ video {
   background-color: rgb(234 88 12 / 0.2);
 }
 
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -935,11 +940,6 @@ video {
 
 .bg-white\/20 {
   background-color: rgb(255 255 255 / 0.2);
-}
-
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'src\/images\/download\.svg\'\)\] {
@@ -1543,11 +1543,6 @@ html {
   .xl\:bg-\[\#080f1f\] {
     --tw-bg-opacity: 1;
     background-color: rgb(8 15 31 / var(--tw-bg-opacity));
-  }
-
-  .xl\:bg-slate-800 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(30 41 59 / var(--tw-bg-opacity));
   }
 
   .xl\:py-10 {
