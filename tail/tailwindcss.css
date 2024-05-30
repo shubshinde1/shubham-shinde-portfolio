@@ -90,6 +90,10 @@ html {
     @apply bg-orange-500
 }
 
-.hovered{
-    @apply hover:scale-105 duration-100
+.hovered {
+    @apply hover:scale-105 duration-100 bg-neutral-200 dark:bg-neutral-600/50 flex items-center p-2 rounded-md col-span-2 md:col-span-3 gap-2 text-sm justify-center md:justify-start
+}
+
+.hovered span {
+    @apply text-black dark:text-white
 }
