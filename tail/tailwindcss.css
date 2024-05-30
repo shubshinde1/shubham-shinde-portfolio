@@ -89,3 +89,7 @@ html {
 .display-none {
     @apply bg-orange-500
 }
+
+.hovered{
+    @apply hover:scale-105 duration-100
+}
