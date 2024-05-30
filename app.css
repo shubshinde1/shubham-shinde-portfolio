@@ -1451,6 +1451,14 @@ html {
   margin-left: 0.25rem;
 }
 
+.group:hover .group-hover\:ml-2 {
+  margin-left: 0.5rem;
+}
+
+.group:hover .group-hover\:ml-1\.5 {
+  margin-left: 0.375rem;
+}
+
 .group:hover .group-hover\:flex {
   display: flex;
 }
